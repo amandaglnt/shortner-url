@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1><%= title %></h1>
+        <p>Vamos começar! :)</p>
+
+        <div class="content">
+          <form method="POST" action="/new">
+            <div class="form">
+              <input placeholder="Digite aqui" name="url" class="form-control">
+              <button class="button-submit" type="submit">Encurtar</button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+
+    </div>
+  </body>
+</html>
